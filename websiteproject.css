@@ -1,0 +1,55 @@
+
+ body{
+	 background-color: #ffddb3;
+	 
+	 }
+.website{font-family: cursive;
+	  font-size: 40px;
+	  margin: 0;
+	  }
+	  .container{
+	   text-align: center;
+	   padding: 0;
+	   margin: 0;
+	   height: 60;
+	   width: 100;
+	  }
+	   
+	  .photo{
+	  border-radius: 10px;
+	  width: 400px;
+	  height: 250px;
+	  
+	  }
+	  
+	 .name{
+	 text-decoration: underline;
+	 font-family: cursive;
+	 } 
+	 .favorites{
+	 text-decoration: underline;
+	 font-family: Sans-serif;
+	 }
+	 
+	 .click-button{
+	 border: 3px solid white;
+	 height: 40px;
+	 width: 200px;
+	 border-radius: 10px;
+	 box-shadow: 0 5px 8px 0;
+	 }
+	 .site-description{
+	 font-family: serif;
+	 }
+	 h5 span{
+		 text-decoration: underline;
+	 }
+	 h5{
+		 height: 0;
+	 }
+	 .fav{
+		 list-style-type: none;
+		 text-align: center;
+		 margin: 0;
+		 padding: 0;
+	 }
