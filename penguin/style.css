@@ -1,0 +1,50 @@
+body {
+ text-align: center;
+ background-color: #aaadb5; 
+} 
+h1 {
+  margin-top: 30px;
+  font-family: cursive, 'Arvo', serif, 'Courgette';
+  font-size: 40px;
+  font-style: oblique;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.penguin {
+  border: 0px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  background-image: url(https://images.unsplash.com/photo-1504532724559-22878efd533a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+.wrong-penguin{
+  border: 0px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-image: url(https://images.unsplash.com/photo-1504532724559-22878efd533a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+.penguin:hover {
+  background-image: url(https://cdn.shopify.com/s/files/1/0378/8133/products/penguins_green_1024x1024.jpg?v=1537545537);
+  
+  cursor: pointer;
+}
+.wrong-penguin:hover {
+  background-image: url(https://cdn.shopify.com/s/files/1/0378/8133/products/penguins_green_1024x1024.jpg?v=1537545537);
+  cursor: pointer;
+}
+.penguin:active {
+  background-image: url(https://as2.ftcdn.net/jpg/00/97/65/09/500_F_97650995_suIXPhrzGExL3irZ3zFm2EfWxoP2VrFD.jpg);
+}
+.wrong-penguin:active {
+  background-image: url(https://images.cdn1.stockunlimited.net/preview1300/penguin-angry_1424163.jpg);
+}
