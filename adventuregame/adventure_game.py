@@ -1,7 +1,7 @@
 import time
 import random
 
-count = []
+
 enemies = ["wicked fairie", "troll", "pirate", "dragon", "gorgon"]
 
 
@@ -69,6 +69,7 @@ def again():
 
 
 while True:
+    count = []
     enemy = random.choice(enemies)
     field()
     while True:
@@ -127,3 +128,4 @@ while True:
 
         else:
             print_pause("Invalid input")
+        break
