@@ -96,7 +96,7 @@ while True:
                         print_pause("You have been defeated")
                         print_pause(f"*** The {enemy} won you ***")
                         break
-                    elif resp == '1':
+                    elif resp == '2':
                         print_pause("You run back into the field. Luckily, you"
                                     " don't seem to have been followed.")
                         break
